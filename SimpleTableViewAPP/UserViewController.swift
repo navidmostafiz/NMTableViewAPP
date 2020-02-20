@@ -27,6 +27,7 @@ class UserViewController: UIViewController {
     }
 
     func getInitialUsers() -> [User] {
+        //THIS IS FOR TEST PURPOSE
         var usersList:[User] = []
         usersList.append(User(userName: "Navid"))
         usersList.append(User(userName: "Kamal"))
