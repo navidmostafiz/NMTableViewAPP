@@ -13,5 +13,5 @@ class User {
     
     init(userName: String) {
         self.userName = userName
-    }
+    } 
 }
