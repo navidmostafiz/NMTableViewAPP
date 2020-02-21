@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6DEF7F5023FDF07700D7A6C2 /* SimpleTableViewAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableViewAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEF7F5023FDF07700D7A6C2 /* NMUITableViewAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMUITableViewAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEF7F5323FDF07700D7A6C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DEF7F5523FDF07700D7A6C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6DEF7F5A23FDF07700D7A6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		6DEF7F4723FDF07700D7A6C2 = {
 			isa = PBXGroup;
 			children = (
-				6DEF7F5223FDF07700D7A6C2 /* SimpleTableViewAPP */,
+				6DEF7F5223FDF07700D7A6C2 /* NMUITableViewAPP */,
 				6DEF7F5123FDF07700D7A6C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		6DEF7F5123FDF07700D7A6C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DEF7F5023FDF07700D7A6C2 /* SimpleTableViewAPP.app */,
+				6DEF7F5023FDF07700D7A6C2 /* NMUITableViewAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DEF7F5223FDF07700D7A6C2 /* SimpleTableViewAPP */ = {
+		6DEF7F5223FDF07700D7A6C2 /* NMUITableViewAPP */ = {
 			isa = PBXGroup;
 			children = (
 				6DEF7F5323FDF07700D7A6C2 /* AppDelegate.swift */,
@@ -76,15 +76,15 @@
 				6DEF7F5C23FDF07700D7A6C2 /* SimpleTableViewAPP.xcdatamodeld */,
 				6DEF7F7023FDF98500D7A6C2 /* userAPICaller.swift */,
 			);
-			path = SimpleTableViewAPP;
+			path = NMUITableViewAPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DEF7F4F23FDF07700D7A6C2 /* SimpleTableViewAPP */ = {
+		6DEF7F4F23FDF07700D7A6C2 /* NMUITableViewAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DEF7F6723FDF07800D7A6C2 /* Build configuration list for PBXNativeTarget "SimpleTableViewAPP" */;
+			buildConfigurationList = 6DEF7F6723FDF07800D7A6C2 /* Build configuration list for PBXNativeTarget "NMUITableViewAPP" */;
 			buildPhases = (
 				6DEF7F4C23FDF07700D7A6C2 /* Sources */,
 				6DEF7F4D23FDF07700D7A6C2 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleTableViewAPP;
+			name = NMUITableViewAPP;
 			productName = SimpleTableViewAPP;
-			productReference = 6DEF7F5023FDF07700D7A6C2 /* SimpleTableViewAPP.app */;
+			productReference = 6DEF7F5023FDF07700D7A6C2 /* NMUITableViewAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DEF7F4B23FDF07700D7A6C2 /* Build configuration list for PBXProject "SimpleTableViewAPP" */;
+			buildConfigurationList = 6DEF7F4B23FDF07700D7A6C2 /* Build configuration list for PBXProject "NMUITableViewAPP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DEF7F4F23FDF07700D7A6C2 /* SimpleTableViewAPP */,
+				6DEF7F4F23FDF07700D7A6C2 /* NMUITableViewAPP */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R46C323S64;
-				INFOPLIST_FILE = SimpleTableViewAPP/Info.plist;
+				INFOPLIST_FILE = NMUITableViewAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.SimpleTableViewAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.NMUITableViewAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,12 +320,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R46C323S64;
-				INFOPLIST_FILE = SimpleTableViewAPP/Info.plist;
+				INFOPLIST_FILE = NMUITableViewAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.SimpleTableViewAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.NMUITableViewAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DEF7F4B23FDF07700D7A6C2 /* Build configuration list for PBXProject "SimpleTableViewAPP" */ = {
+		6DEF7F4B23FDF07700D7A6C2 /* Build configuration list for PBXProject "NMUITableViewAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DEF7F6523FDF07800D7A6C2 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DEF7F6723FDF07800D7A6C2 /* Build configuration list for PBXNativeTarget "SimpleTableViewAPP" */ = {
+		6DEF7F6723FDF07800D7A6C2 /* Build configuration list for PBXNativeTarget "NMUITableViewAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DEF7F6823FDF07800D7A6C2 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SimpleTableViewAPP
+//  NMUITableViewAPP
 //
 //  Created by Navid on 2/19/20.
 //  Copyright © 2020 UnitedStar. All rights reserved.

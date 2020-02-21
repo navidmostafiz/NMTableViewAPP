@@ -1,6 +1,6 @@
 //
 //  userAPICaller.swift
-//  SimpleTableViewAPP
+//  NMUITableViewAPP
 //
 //  Created by Navid on 2/19/20.
 //  Copyright © 2020 UnitedStar. All rights reserved.
@@ -13,6 +13,11 @@ protocol DataPass {
     func showResultWith(userList: [User]) -> Void
 }
 
+//IMPLEMENTING CLASS CAN USE THE BELLOW IMPLEMENTATION
+//func showResultWith(userList: [User]) -> Void {
+//    users = userList
+//    tableView.reloadData()
+//}
 
 class UserAPICaller {
     

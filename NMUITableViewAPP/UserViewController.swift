@@ -1,6 +1,6 @@
 //
 //  UserViewController.swift
-//  SimpleTableViewAPP
+//  NMUITableViewAPP
 //
 //  Created by Navid on 2/19/20.
 //  Copyright © 2020 UnitedStar. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DataPass {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -16,33 +16,16 @@ class UserViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        users = getInitialUsers()
         
-        let userApiCallerObj = UserAPICaller()
-        userApiCallerObj.delegate = self
-        userApiCallerObj.getAllUsersFromURL()
+        //LETS CREATE THE LIST OF USERS
+        users.append(User(userName: "Navid"))
+        users.append(User(userName: "Kamal"))
+        users.append(User(userName: "Jamal"))
+        users.append(User(userName: "Damal"))
         
+        //DELEGATE AND DATASOURCE SET TO SELF, INSTANCE OF THIS CLASS
         tableView.delegate = self
         tableView.dataSource = self
-    }
-
-    func getInitialUsers() -> [User] {
-        //THIS IS FOR TEST PURPOSE
-        var usersList:[User] = []
-        usersList.append(User(userName: "Navid"))
-        usersList.append(User(userName: "Kamal"))
-        usersList.append(User(userName: "Jamal"))
-        usersList.append(User(userName: "Damal"))
-        return usersList
-    }
-    
-}
-
-
-extension UserViewController: UITableViewDelegate, UITableViewDataSource, DataPass {
-    func showResultWith(userList: [User]) -> Void {
-        users = userList
-        tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -57,5 +40,8 @@ extension UserViewController: UITableViewDelegate, UITableViewDataSource, DataPa
         return cell
     }
     
-    
+    func showResultWith(userList: [User]) -> Void {
+        users = userList
+        tableView.reloadData()
+    }
 }
